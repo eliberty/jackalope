@@ -58,6 +58,12 @@ class BinaryStreamWrapper
     private $session = null;
 
     /**
+     * The context of the stream.
+     * Created dynaically... 
+     */
+    public $context;
+
+    /**
      * Get the information and store it for later usage.
      *
      * @param string $path        the backend path for this stream
